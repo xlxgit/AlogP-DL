@@ -4,6 +4,12 @@ AlogP-DL provides a high quality open-source toolkit that democratizes
 the use of deep-learning and new generation of machine leanring in 
 predicting the properties of drug molecules.
 
+### Available scripts 
+kernal-based: SVM
+ensemble learning: RF, XGBoost
+deep learning: DNN, LSTM
+#more tools will be added soon
+
 ### Soft Requirements
 DeepChem;
 RDKit;
