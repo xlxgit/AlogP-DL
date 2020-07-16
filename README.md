@@ -5,10 +5,10 @@ the use of deep-learning and new generation of machine leanring in
 predicting the properties of drug molecules.
 
 ### Soft Requirements
-DeepChem
-RDKit
-keras
-sklearn
+DeepChem;
+RDKit;
+keras;
+sklearn;
 
 ### Command
 ### enter the dir and then run commands as the fllowing example
