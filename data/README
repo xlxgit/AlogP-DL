@@ -1,0 +1,5 @@
+***Disclaimer***
+DrugBank dataset is obtained from drugbank website (https://go.drugbank.com/). 
+Lipophilicity dataset is the subset of MoleculeNet.
+PDBbind dataset is obtained from http://www.pdbbind.org.cn/. Registration is required before download the database.
+The copyright  rights are owned to themselves. The users are referred to the orginial website.
