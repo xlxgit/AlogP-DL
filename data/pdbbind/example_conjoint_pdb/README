@@ -1,0 +1,13 @@
+##generating conjoint fingerprints for protein-ligand in steps
+
+#1. remove HETATOM from pdb file
+grep -v HETATM 11gs_pocket.pdb > 11gs_pocket_clean.pdb
+
+#2. generate MACCSKEYS for protein-ligand
+python maccskeys-pdb-refined2019_pocket.py
+
+#3. generate ECFP for protein-ligand
+python ecfp-pdb-refined2019-pocket.py
+
+#4. combine MACCSKEYS and ECFP
+python joined-maccs-ecfp-pocket.py
